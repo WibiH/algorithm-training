@@ -13,3 +13,9 @@ function sum(numbers) {
   } else result = numbers.reduce((a, b) => a + b, 0);
   return result;
 }
+
+// Sum Numbers #2
+function sum(numbers) {
+  let result = numbers === undefined ? 0 : numbers.reduce((a, b) => a + b, 0);
+  return result;
+}
