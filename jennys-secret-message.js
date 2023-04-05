@@ -14,10 +14,16 @@ Can you help her? */
       return "Hello, my love!";
   } */
 
+// Version #1
 function greet(name) {
   if (name === "Johnny") {
     return "Hello, my love!";
   } else {
     return `Hello, ${name}!`;
   }
+}
+
+// Version #2
+function greet(name) {
+  return name === "Johnny" ? "Hello, my love!" : "Hello, " + name + "!";
 }
